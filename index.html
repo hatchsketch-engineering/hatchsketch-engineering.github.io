@@ -3,142 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hatch Sketch Engineering - Jasa desain dan bangun profesional dengan kolaborasi tim Teknik Sipil, Arsitek, dan MEP.">
-    <meta name="keywords" content="jasa desain dan bangun, arsitek, teknik sipil, MEP, desain rumah, bangun rumah, jasa konstruksi, desain kantor, desain interior, desain 3D">
-    <title>Hatch Sketch Engineering | Jasa Desain dan Bangun Profesional</title>
+    <meta name="description" content="Hatch Sketch Engineering - Jasa desain dan bangun profesional dengan kolaborasi tim Teknik Sipil, Arsitek, dan MEP untuk hasil yang komplit dan terpercaya.">
+    <meta name="keywords" content="jasa desain bangunan, arsitek, teknik sipil, MEP, kontraktor, desain rumah, jasa bangun rumah, desain interior, desain eksterior, hatch sketch engineering">
+    <meta name="author" content="Hatch Sketch Engineering">
+    <title>Hatch Sketch Engineering - Jasa Desain & Bangun Profesional</title>
     <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hero.jpg') center/cover no-repeat;
-            color: #fff;
-            text-align: center;
-            padding: 80px 20px;
-        }
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: auto;
-        }
-        header a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background: #ff9800;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 1100px;
-            margin: auto;
-        }
-        .about {
-            text-align: center;
-        }
-        .portfolio {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-        }
-        .portfolio img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            transition: transform 0.3s;
-        }
-        .portfolio img:hover {
-            transform: scale(1.05);
-        }
-        .cta {
-            background: #ff9800;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        .cta a {
-            background: white;
-            color: #ff9800;
-            padding: 12px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9rem;
-        }
+        body {margin:0; font-family: Arial, sans-serif; background:#fff; color:#333;}
+        header {background:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80') center/cover; height:100vh; color:#fff; display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center;}
+        header h1 {font-size:3rem; margin:0;}
+        header p {max-width:600px; font-size:1.2rem;}
+        header a {background:#ff9900; color:#fff; padding:15px 25px; text-decoration:none; margin-top:20px; border-radius:5px;}
+        section {padding:60px 20px; max-width:1100px; margin:auto;}
+        .portfolio {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px;}
+        .portfolio img {width:100%; border-radius:10px; transition:transform 0.3s;}
+        .portfolio img:hover {transform:scale(1.05);}
+        .services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+        .service-box {background:#f7f7f7; padding:20px; border-radius:10px; text-align:center;}
+        footer {background:#222; color:#fff; text-align:center; padding:20px;}
         /* Tombol WA melayang */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #25d366;
-            color: white;
-            border-radius: 50%;
-            padding: 15px;
-            font-size: 24px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-            z-index: 1000;
-            text-decoration: none;
-        }
+        .whatsapp-float {position:fixed; bottom:20px; right:20px; background:#25D366; color:white; border-radius:50%; width:60px; height:60px; display:flex; align-items:center; justify-content:center; font-size:30px; text-decoration:none; box-shadow:0 4px 6px rgba(0,0,0,0.3);}
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Hatch Sketch Engineering</h1>
-        <p>Jasa desain dan bangun profesional dengan kolaborasi tim Teknik Sipil, Arsitek, dan MEP.</p>
-        <a href="#portfolio">Lihat Proyek</a>
-    </header>
+<header>
+    <h1>Hatch Sketch Engineering</h1>
+    <p>Jasa desain & bangun profesional dengan kolaborasi tim Teknik Sipil, Arsitek, dan MEP. Hasil desain yang komplit, terpercaya, dan sesuai impian Anda.</p>
+    <a href="#kontak">Hubungi Kami</a>
+</header>
 
-    <section class="about">
-        <h2>Tentang Kami</h2>
-        <p>Kami menghadirkan solusi desain bangunan yang komplit dan terpercaya, memadukan keahlian <strong>Teknik Sipil</strong>, <strong>Arsitektur</strong>, dan <strong>MEP</strong>. 
-        Dengan pengalaman dan dedikasi, setiap proyek kami rancang untuk efisiensi, estetika, dan ketahanan. 
-        Mulai dari rumah tinggal, kantor, hingga fasilitas komersial, kami siap membantu mewujudkan impian Anda.</p>
-    </section>
+<section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah tim profesional yang menggabungkan keahlian Teknik Sipil, Arsitektur, dan MEP (Mekanikal, Elektrikal, Plumbing) untuk menciptakan desain bangunan yang tidak hanya estetis, tetapi juga kokoh, fungsional, dan hemat energi. Komitmen kami adalah menghadirkan solusi terbaik dari konsep hingga bangunan jadi, dengan proses yang transparan dan hasil yang memuaskan.</p>
+</section>
 
-    <section id="portfolio">
-        <h2 style="text-align:center;">Portofolio Proyek</h2>
-        <div class="portfolio">
-            <img src="images/proyek1.jpg" alt="Desain Rumah Modern">
-            <img src="images/proyek2.jpg" alt="Bangun Gedung Kantor">
-            <img src="images/proyek3.jpg" alt="Interior Minimalis">
-            <img src="images/proyek4.jpg" alt="Desain 3D Rumah">
-            <img src="images/proyek5.jpg" alt="Renovasi Rumah">
-            <img src="images/proyek6.jpg" alt="Proyek Konstruksi Komersial">
+<section id="portfolio">
+    <h2>Portofolio Proyek</h2>
+    <div class="portfolio">
+        <img src="https://images.unsplash.com/photo-1581092919535-7146ff1a61d7?auto=format&fit=crop&w=800&q=80" alt="Proyek 1">
+        <img src="https://images.unsplash.com/photo-1560448075-bb485b4f1d4d?auto=format&fit=crop&w=800&q=80" alt="Proyek 2">
+        <img src="https://images.unsplash.com/photo-1598620617132-345cfb9117c9?auto=format&fit=crop&w=800&q=80" alt="Proyek 3">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80" alt="Proyek 4">
+    </div>
+</section>
+
+<section id="layanan">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Desain Arsitektur</h3>
+            <p>Konsep desain kreatif dan fungsional sesuai karakter dan kebutuhan Anda.</p>
         </div>
-    </section>
+        <div class="service-box">
+            <h3>Perencanaan Struktur</h3>
+            <p>Perhitungan teknis detail untuk memastikan bangunan kokoh dan aman.</p>
+        </div>
+        <div class="service-box">
+            <h3>Desain MEP</h3>
+            <p>Integrasi sistem mekanikal, elektrikal, dan plumbing yang efisien dan tepat.</p>
+        </div>
+    </div>
+</section>
 
-    <section class="cta">
-        <h2>Konsultasi Gratis Desain & Bangun</h2>
-        <p>Hubungi kami sekarang untuk mendapatkan penawaran terbaik.</p>
-        <a href="https://wa.me/6281234567890?text=Halo%20Hatch%20Sketch%20Engineering%2C%20saya%20ingin%20konsultasi">Hubungi via WhatsApp</a>
-    </section>
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Hubungi kami untuk konsultasi gratis dan penawaran terbaik.</p>
+    <p>Email: info@hatchsketch.com</p>
+    <p>WhatsApp: <a href="https://wa.me/628123456789">+62 812-3456-789</a></p>
+</section>
 
-    <footer>
-        <p>© 2025 Hatch Sketch Engineering. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2025 Hatch Sketch Engineering. All Rights Reserved.</p>
+</footer>
 
-    <!-- Tombol WhatsApp melayang -->
-    <a href="https://wa.me/6281234567890?text=Halo%20Hatch%20Sketch%20Engineering%2C%20saya%20ingin%20konsultasi" class="whatsapp-float" target="_blank">💬</a>
+<!-- Tombol WhatsApp Melayang -->
+<a href="https://wa.me/628123456789" class="whatsapp-float">&#x1F4AC;</a>
 
 </body>
 </html>
