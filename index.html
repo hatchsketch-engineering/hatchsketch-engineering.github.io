@@ -5,15 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f8f9fa; }
         h1 { color: #333; }
-        a.button { display: inline-block; padding: 10px 20px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
-        a.button:hover { background: #0056b3; }
+
+        /* Tombol WA melayang */
+        .wa-floating {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+        .wa-floating:hover {
+            background-color: #1ebe5b;
+        }
+        .wa-floating img {
+            width: 35px;
+            height: 35px;
+        }
     </style>
 </head>
 <body>
     <h1>Selamat Datang!</h1>
     <p>Ini adalah landing page saya di GitHub Pages 🚀</p>
-    <a class="button" href="https://wa.me/6281238663602">Hubungi Saya</a>
+
+    <!-- Tombol WA Melayang -->
+    <a href="https://wa.me/6281238663602" class="wa-floating" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+    </a>
 </body>
 </html>
